@@ -1,0 +1,135 @@
+.HeadLayout{
+    background-color: #ffffff;
+    background-size: cover; 
+    width:100%;  
+    border: 2px solid #E5E5E5;
+    border-top:none; 
+    border-left: none;
+    border-right: none;
+    
+} 
+.logoAndIcons{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items:center ; 
+    margin-left: 60px;
+    margin-right: 60px;
+}  
+
+@media(max-width:767px){
+    .logoAndIcons{
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-between; 
+        align-items:center ; 
+        margin-left: 40px;
+        margin-right: 40px;
+    } 
+}
+.logoAndMenu{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    align-items: center;
+} 
+.rightSideLogos{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-start; 
+    
+} 
+.leftSideThreeLogos{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    align-items: center;
+} 
+.profileAndLanguage{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+} 
+.logoName{
+    align-self: center;
+    font-size: 34px; 
+    font-family: "inter"; 
+    font-weight: 800; 
+    height:44px; 
+    width:107px; 
+    margin-left: 60px;
+} 
+
+@media (min-width:768px){
+    .menu{
+        display:none;
+    }
+} 
+@media (max-width:767px){ 
+    .logoName{
+        align-self: center; 
+        font-size: 20px; 
+        font-family: "inter"; 
+        font-weight: 800; 
+        height:24px;
+        width:61px;
+    }
+
+} 
+.lowerLogo{
+    width:35px; 
+
+}  
+@media (max-width:767px){
+    .lowerLogo{
+        width:19px;  
+        margin: 5px;
+    
+    } 
+}
+.logoMargin{
+    margin: 8px; 
+    width:24px
+}  
+@media (max-width:767px){
+    .logoMargin{
+        margin: 5px; 
+        width:20px
+    }
+} 
+@media (max-width:767px){
+    .hideProfile{
+        display: none;
+    }
+} 
+.propertiesNamesLayout{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;   
+    
+    align-items: center; 
+    
+
+} 
+.namesRow{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;   
+    align-items: center; 
+    width:636px;
+} 
+@media (max-width:767px){
+    .propertiesNamesLayout{
+        display: none;
+    }
+} 
+.nameDecaration{
+font-family: "Simplon Norm";
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 1px;
+text-align: left;
+
+}

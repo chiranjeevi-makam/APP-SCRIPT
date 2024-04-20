@@ -1,38 +1,137 @@
-.App {
-  text-align: center;
+.background{
+  background-color: #ffffff;
+  background-size: cover;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.Describe{
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+} 
+.subheading{
+  font-family: "Simplon Norm";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 1px;
+  text-align: center; 
+  padding-bottom: 0px; 
+  margin-bottom: 0px;
 
-.App-link {
-  color: #61dafb;
-}
+} 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width:767px){
+  .subheading{
+    font-family: Simplon Norm;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center; 
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+
   }
-  to {
-    transform: rotate(360deg);
+} 
+.secondSub{ 
+  font-family: "Simplon Norm";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center; 
+  width:721px;
+  height:80px; 
+  padding-top: 0px;
+  
+
+} 
+
+@media (max-width:767px){
+  .secondSub{ 
+    font-family: Simplon Norm;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center; 
+    width:343px; 
+    height:66px; 
+    padding-top: 0px;
+    
+
   }
+} 
+.filterRow{
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center;  
+  border: 1px solid #E5E5E5; 
+  
+}  
+
+@media(min-width:768px){ 
+  .filterRow{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;  
+    border: 1px solid #E5E5E5; 
+    margin-left:30px; 
+    margin-right: 30px;
+  }  
+
+}
+.itemsAndHide{
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-around; 
+  align-items: center; 
+  
+}  
+@media (max-width:767px){
+  .itemsAndHide{
+    display: none;
+  }
+} 
+@media (min-width:768px){
+  .filter{
+    display: none;
+  } 
+
+.filter{
+font-family: "Simplon Norm";
+font-size: 14px;
+font-weight: 700;
+line-height: 16.8px;
+text-align: left;
+color: #252020;
+
+}
+}
+.horizinatalLone{
+  display:none;
+} 
+@media (max-width:767px){
+  .horizinatalLone{
+     
+    border: 1px solid #E5E5E5
+  } 
+}  
+
+.literSelecter{
+  border: transparent; 
+  background-color: #ffffff;
+} 
+
+.items{
+  font-family: Simplon Norm;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left; 
+  margin-right: 3px;
+  padding-right: 3px;
+
+} 
+.showItems{
+  text-decoration: underline;
 }
