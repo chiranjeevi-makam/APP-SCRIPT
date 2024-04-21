@@ -132,4 +132,7 @@ line-height: 24px;
 letter-spacing: 1px;
 text-align: left;
 
+} 
+.languageInput{
+    border: none;
 }

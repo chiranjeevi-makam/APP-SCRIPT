@@ -17,8 +17,10 @@ const Head=()=><div className="HeadLayout">
 
         <div className="profileAndLanguage hideProfile">
             <img src="\assets\profile.png" className="logoMargin" alt="PersonImage"/> 
-            <select>
-                <option value="ENG">ENG</option>
+            <select className='languageInput'>
+                <option value="ENG">ENG</option> 
+                <option value="TELUGU">TELUGU</option> 
+                <option value="HINDI">HINDI</option>
             </select>
         </div>
         

@@ -1,0 +1,82 @@
+.productStructure{
+    width: 250px;
+    height: 550px; 
+    background-color: #ffffff; 
+    list-style-type: none; 
+    margin: 3px;
+    } 
+    @media (max-width:767px){
+        .productStructure{
+            width: 150px;
+            height: 350px; 
+            margin: 1.5px;
+        }
+    } 
+    .ProductImage{
+        width: 168px;
+        height: 224px;
+    
+    } 
+    
+    @media (min-width:768px){ 
+        .ProductImage{
+            width: 300px;
+            height: 399px;
+        } 
+    
+    } 
+    .product_name{
+    font-family: "Simplon Norm";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    color: #252020;
+    
+    
+    } 
+    .productNameAndHeart{
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-between;
+    } 
+    
+    @media (max-width:767px){ 
+        .product_name{
+            font-family: "Simplon Norm";
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 21.6px;
+            color: #252020;
+        }
+    
+    } 
+    .productHeart{
+        width: 16px;
+        height: 16px; 
+    }  
+    
+    @media (min-width:768px){
+        .productHeart{
+            width: 24px;
+            height: 24px; 
+        } 
+    } 
+    .paraSignIn{
+        font-family: "Simplon Norm";
+        font-size: 14px;
+        font-weight: 400; 
+        color:black;
+
+    
+    } 
+    @media (max-width:767px){
+        .paraSignIn{
+            font-family: Simplon Norm;
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 12px;
+            color: black;
+    
+        }
+    }
+    

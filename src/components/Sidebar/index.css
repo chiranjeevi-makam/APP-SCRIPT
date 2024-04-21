@@ -1,0 +1,19 @@
+.sidebarLayout{
+    background-color: #ffffffff; 
+    background-size: cover; 
+    width: Fixed (300px)px;
+    height: Hug (1,018px)px;
+    top: 652px;
+    left: 96px;
+    gap: 24px;
+    opacity: 0px;
+    
+} 
+.custom{
+font-family: "Simplon Norm";
+font-size: 18px;
+font-weight: 700;
+line-height: 21.6px;
+text-align: left;
+
+}

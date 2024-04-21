@@ -66,6 +66,7 @@
   align-items: center;  
   border: 1px solid #E5E5E5; 
   
+  
 }  
 
 @media(min-width:768px){ 
@@ -76,7 +77,8 @@
     align-items: center;  
     border: 1px solid #E5E5E5; 
     margin-left:30px; 
-    margin-right: 30px;
+    margin-right: 30px; 
+    margin-bottom: 1px;
   }  
 
 }
@@ -134,4 +136,31 @@ color: #252020;
 } 
 .showItems{
   text-decoration: underline;
+}  
+
+.fiterAndProducts{
+  display: flex; 
+  flex-direction: row; 
+  justify-content: flex-start; 
+  padding-left: 30px; 
+  padding-right: 30px;
+}  
+.productDispaly{
+  list-style-type: none; 
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap;
+} 
+@media (max-width:767px){
+  .fiterAndProducts{
+    display: none;
+  }
+} 
+.onlyProducts{
+  display: none;
+} 
+@media (max-width:767px){
+  .onlyProducts{
+    display: block;
+  }
 }
